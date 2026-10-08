@@ -59,11 +59,11 @@
         <!-- HERO SECTION -->
         <section id="accueil"
             class="relative overflow-hidden bg-slate-900 text-white py-24 lg:py-32 border-b border-slate-800">
-            <!-- Background Gradients -->
+            <!-- Background Gradients (Ajustés pour un effet plus doux) -->
             <div
-                class="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-full overflow-hidden pointer-events-none opacity-40">
-                <div class="absolute -top-24 -left-20 w-96 h-96 bg-blue-600 rounded-full blur-3xl"></div>
-                <div class="absolute top-1/2 -right-20 w-96 h-96 bg-indigo-600 rounded-full blur-3xl"></div>
+                class="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-full overflow-hidden pointer-events-none opacity-20">
+                <div class="absolute -top-24 -left-20 w-96 h-96 bg-blue-600/60 rounded-full blur-3xl"></div>
+                <div class="absolute top-1/2 -right-20 w-96 h-96 bg-indigo-600/60 rounded-full blur-3xl"></div>
             </div>
 
             <div class="relative max-w-5xl mx-auto px-6 text-center space-y-8">
@@ -155,78 +155,20 @@
                         différence</p>
                 </div>
 
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <!-- Service 1 -->
-                    <div
-                        class="p-8 rounded-2xl bg-slate-800/60 border border-slate-700/60 hover:border-blue-500/50 hover:bg-slate-800 transition duration-300 group">
-                        <div
-                            class="w-12 h-12 rounded-xl bg-blue-600/20 text-blue-400 flex items-center justify-center text-xl mb-6 group-hover:scale-110 group-hover:bg-blue-600 group-hover:text-white transition">
-                            <i class="fa-solid fa-code"></i>
-                        </div>
-                        <h3 class="text-xl font-bold mb-3 text-white">Développement Web</h3>
-                        <p class="text-slate-400 text-sm leading-relaxed">Conception de sites et d'applications web
-                            ultra-rapides, responsifs et optimisés pour le référencement.</p>
-                    </div>
+                <div id="services-liste" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-                    <!-- Service 2 -->
-                    <div
-                        class="p-8 rounded-2xl bg-slate-800/60 border border-slate-700/60 hover:border-blue-500/50 hover:bg-slate-800 transition duration-300 group">
-                        <div
-                            class="w-12 h-12 rounded-xl bg-blue-600/20 text-blue-400 flex items-center justify-center text-xl mb-6 group-hover:scale-110 group-hover:bg-blue-600 group-hover:text-white transition">
-                            <i class="fa-solid fa-palette"></i>
-                        </div>
-                        <h3 class="text-xl font-bold mb-3 text-white">Branding & Identité</h3>
-                        <p class="text-slate-400 text-sm leading-relaxed">Création de logos, chartes graphiques et
-                            supports visuels percutants pour imposer votre marque.</p>
-                    </div>
+                    <!-- Les cartes de services seront générées ici par JavaScript -->
 
-                    <!-- Service 3 -->
-                    <div
-                        class="p-8 rounded-2xl bg-slate-800/60 border border-slate-700/60 hover:border-blue-500/50 hover:bg-slate-800 transition duration-300 group">
-                        <div
-                            class="w-12 h-12 rounded-xl bg-blue-600/20 text-blue-400 flex items-center justify-center text-xl mb-6 group-hover:scale-110 group-hover:bg-blue-600 group-hover:text-white transition">
-                            <i class="fa-solid fa-chart-line"></i>
-                        </div>
-                        <h3 class="text-xl font-bold mb-3 text-white">Stratégie Digitale</h3>
-                        <p class="text-slate-400 text-sm leading-relaxed">Conseil et accompagnement pour maximiser votre
-                            impact et captiver votre audience cible.</p>
-                    </div>
+                </div>
+            </div>
+        </section>
 
-                    <!-- Service 4 -->
-                    <div
-                        class="p-8 rounded-2xl bg-slate-800/60 border border-slate-700/60 hover:border-blue-500/50 hover:bg-slate-800 transition duration-300 group">
-                        <div
-                            class="w-12 h-12 rounded-xl bg-blue-600/20 text-blue-400 flex items-center justify-center text-xl mb-6 group-hover:scale-110 group-hover:bg-blue-600 group-hover:text-white transition">
-                            <i class="fa-solid fa-graduation-cap"></i>
-                        </div>
-                        <h3 class="text-xl font-bold mb-3 text-white">Formation Tech</h3>
-                        <p class="text-slate-400 text-sm leading-relaxed">Via Pus Toure Academy, développez vos
-                            compétences sur les technologies du numérique de demain.</p>
-                    </div>
+        <section id="clients" class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-6">
+                <h2 class="text-3xl font-extrabold text-slate-900 text-center mb-12">Ils nous font confiance</h2>
+                <div id="clients-liste" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-                    <!-- Service 5 -->
-                    <div
-                        class="p-8 rounded-2xl bg-slate-800/60 border border-slate-700/60 hover:border-blue-500/50 hover:bg-slate-800 transition duration-300 group">
-                        <div
-                            class="w-12 h-12 rounded-xl bg-blue-600/20 text-blue-400 flex items-center justify-center text-xl mb-6 group-hover:scale-110 group-hover:bg-blue-600 group-hover:text-white transition">
-                            <i class="fa-solid fa-gears"></i>
-                        </div>
-                        <h3 class="text-xl font-bold mb-3 text-white">Maintenance Web</h3>
-                        <p class="text-slate-400 text-sm leading-relaxed">Mises à jour, sécurité et optimisation
-                            continue pour garder vos plateformes toujours performantes.</p>
-                    </div>
 
-                    <!-- Service 6 -->
-                    <div
-                        class="p-8 rounded-2xl bg-slate-800/60 border border-slate-700/60 hover:border-blue-500/50 hover:bg-slate-800 transition duration-300 group">
-                        <div
-                            class="w-12 h-12 rounded-xl bg-blue-600/20 text-blue-400 flex items-center justify-center text-xl mb-6 group-hover:scale-110 group-hover:bg-blue-600 group-hover:text-white transition">
-                            <i class="fa-solid fa-handshake"></i>
-                        </div>
-                        <h3 class="text-xl font-bold mb-3 text-white">Accompagnement IT</h3>
-                        <p class="text-slate-400 text-sm leading-relaxed">Suivi personnalisé pour la concrétisation et
-                            l'évolution constante de vos projets informatiques.</p>
-                    </div>
                 </div>
             </div>
         </section>
@@ -326,6 +268,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 
